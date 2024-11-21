@@ -8,6 +8,12 @@ module.exports = {
       },
       width:{
         "575":"575px",
+      },
+      height:{
+        "18":"4.5rem"
+      },
+      fontFamily:{
+        custom:['Univers']
       }
     },
   },
