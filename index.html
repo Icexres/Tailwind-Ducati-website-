@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <nav class="bg-red-600 text-white flex h-24 justify-between border-b-4 border-black">
-        <!-- flex justify-between h-26-->
+    <nav class="bg-red-600 text-white flex h-24 justify-between border-b-4 w-screen border-black">
+
         <img src="images/logo.png" class="h-24 pb-3 px-3 mt-2" alt="page logo">
         <div class="flex space-x-8">
             <div
@@ -32,20 +32,57 @@
             <div class="absolute inset-0 bg-center bg-cover bg-fixed"
                 style="background-image: url('images/bg.webp'); filter: brightness(60%); z-index: -1;"></div>
             
-            <div class="relative pt-40 pl-4 w-3/4 text-6xl text-white fixed">The Ducati Panigale V2</div>
+            <div class="relative pt-40 pl-4 w-3/4 text-6xl text-white font-custom italic">The Ducati Panigale V2</div>
 
-            <p class="pl-4 pb-28 pt-8 w-575 text-white">
+            <p class="pl-4 pb-14 pt-8 w-575 text-white">
                 The new Ducati Panigale V2 marks a historic transition in the history of Borgo
                 Panigale twin-cylinder sports bikes, because for the first time it is not derived from the larger
                 motorcycle that competes in Superbike. Designed totally from scratch, it is the lightest ever
                 Panigale. It weighs 17 kg less than the previous model, from which it inherits its sports attitude
                 and adds a level of ease, comfort and riding pleasure.
             </p>
+            <div class="buttons flex pl-3">
+                <button class="bg-slate-900 text-white px-8 py-4 rounded-2xl hover:bg-red-600 hover:text-white">Buy now</button>
+                <button class="bg-slate-900 text-white px-8 py-4 rounded-2xl ml-4 hover:bg-red-600 hover:text-white">Contact us</button>
+                <button class="bg-slate-900 text-white px-8 py-4 rounded-2xl ml-4 hover:bg-red-600 hover:text-white">About</button>
+            </div>
         </div>
         </div>
     </main>
-    <div class="container py-28">DUCATI RANGE</div>
+    <div class="bg-black w-screen pb-4">
+        <div class="pt-3 pl-2 text-5xl text-white font-custom italic">DUCATI RANGE</div>
+        <p class="text-white pt-3 pl-2 text-xl w-auto text-justify font-semibold">Ducati offers multiple variations of two wheelers built to accomodate different scenarios. We provide the monster series as a naked street variation, multistradia for tourers, panigale for race competition and much more. We got some popular picks for you below.</p>
+    </div>
 
+    <div class="flex pb-32 w-screen bg-black divide-x-8">
+        <div class="bg-gray-100 overflow-hidden shadow-md">
+            <img src="images/panigale V2.png" class="h-56 border-0">
+            <div class="text-start pt-4">
+            <span class="font-custom text-xl">Ducati Panigale V2</span>
+            </div>
+        </div>
+
+        <div class="bg-gray-100 overflow-hidden shadow-md">
+            <img src="images/sfv2.webp" class="h-56 border-0">
+            <div class="text-start pt-4">
+            <span class="font-custom text-xl">Ducati streetfighter V2</span>
+            </div>
+        </div>
+
+        <div class="bg-gray-100 overflow-hidden shadow-md">
+            <img src="images/monster1200.webp" class="h-56 border-0">
+            <div class="text-start pt-4">
+            <span class="font-custom text-xl">Ducati Monster 1200</span>
+            </div>
+        </div>
+        
+        <div class="bg-gray-100 overflow-hidden shadow-md">
+            <img src="images/desertx.webp" class="h-56 border-0">
+            <div class="text-start pt-4">
+            <span class="font-custom text-xl">Ducati Desert X</span>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
