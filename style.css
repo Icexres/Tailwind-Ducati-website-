@@ -1,3 +1,7 @@
+@font-face{
+    font-family:'Univers';
+    src: url('assets\Sophia-Nubian\SNB.ttf')format('truetype');
+}
 @tailwind base;
 @tailwind components;   
 @tailwind utilities;
